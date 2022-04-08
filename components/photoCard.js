@@ -17,10 +17,8 @@ export default function PhotoCard(props) {
         <h2 className={styles.photoTitle}>{props.nasaPhoto.title}</h2>
         <p className={styles.copyright}>Image Credit and Copyright: {props.nasaPhoto.copyright}</p>
         <p className={styles.photoDesc}>{props.nasaPhoto.explanation}</p>
-        <div>
         <p className={styles.date}>Date: {props.nasaPhoto.date}</p>
-        <p>Content and Image Credit: NASA</p>
-        </div>
+        <p className={styles.imageCredit}>Content and Image Credit: NASA</p>
       </div>
     </main>
   );

@@ -15,13 +15,13 @@ export default function Home({ nasaPhoto }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <main className={styles.mainContainer}>
           <Image
-            className="nasa-logo"
+            className={styles.nasaLogo}
             src={nasaLogo}
             alt="Nasa Logo"
-            height={144}
-            width={280}
+            height={200}
+            width={400}
           />
           <h1 className={styles.title}>Astronomy Photo of the Day</h1>
     
