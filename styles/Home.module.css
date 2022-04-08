@@ -1,6 +1,11 @@
-.container {
-  padding: 0 2rem;
+.background {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  z-index: -1;
 }
+
 .mainContainer {
   min-height: 100vh;
   padding: 4rem .5rem;
@@ -9,6 +14,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .main {
@@ -32,6 +39,7 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  font: white; 
 }
 
 .footer a {
@@ -56,6 +64,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 3.5rem;
+  color: #D6FCEF;
 }
 
 .title,
@@ -87,12 +96,17 @@
 }
 
 .card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
+  margin: 2rem;
+  padding: 1rem 1.5rem .5rem 1.5rem;
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: white;
   text-decoration: none;
-  border: 1px solid #eaeaea;
+  background-color: #0A3E91;
+  opacity: 0.8;
+  border: 1px solid whitesmoke;
+  box-shadow: whitesmoke;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
@@ -103,6 +117,7 @@
 .card:active {
   color: #0070f3;
   border-color: #0070f3;
+  background-color: whitesmoke;
 }
 
 .card h2 {
@@ -132,6 +147,7 @@
   position: relative;  
   width: 80%;
   height: 80%;
+  color: #E3FCD6;
 }
 
 .photoTitle {
