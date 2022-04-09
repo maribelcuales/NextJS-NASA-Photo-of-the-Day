@@ -40,7 +40,7 @@ export default function Home({ nasaPhoto }) {
         
         <div className={styles.grid}>
           <a
-            href="https://apod.nasa.gov/apod/image/2204/M24_APOD_GabrielRodriguesSantosAPOD.jpg"
+            href={nasaPhoto.hdurl}
             target="_blank"
             rel="noreferrer"
             className={styles.card}
