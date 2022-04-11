@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 It fetches data directly from the NASA APOD API and automatically updates data everyday. It also has responsive web design. 
 
-Deployed Project on Vercel: [Next.js NASA Photo of the Day](https://vercel.com/maribelcuales/next-js-nasa-photo-of-the-day)
+Deployed Project on Vercel: [Next.js NASA Photo of the Day](https://next-js-nasa-photo-of-the-day-maribelcuales.vercel.app/)
 
 
 ## Getting Started
