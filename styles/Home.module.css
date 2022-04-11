@@ -140,6 +140,11 @@
   display: relative; 
 }
 
+.nasaPhoto {
+  border-radius: 10px;
+}
+
+
 .photoDetails {
   display: flex; 
   flex-direction: column;
@@ -187,7 +192,7 @@
 @media (max-width: 600px) {
   .title {
     font-size: 3rem;
-    
+
   }
 
   .grid {

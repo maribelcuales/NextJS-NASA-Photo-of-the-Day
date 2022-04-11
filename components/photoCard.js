@@ -6,7 +6,7 @@ export default function PhotoCard(props) {
     <main className={styles.main}>
       <div className={styles.photoContainer}>
         <Image
-          className="nasa-photo"
+          className={styles.nasaPhoto}
           src={props.nasaPhoto.url}
           alt="Nasa Photo of the Day"
           height={600}
