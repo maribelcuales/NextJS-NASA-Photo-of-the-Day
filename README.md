@@ -1,4 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Project Info
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and then deployed on Vercel. 
+
+It fetches data directly from the NASA APOD API and automatically updates data everyday. It also has responsive web design. 
+
+Deployed Project on Vercel: [Next.js NASA Photo of the Day](https://vercel.com/maribelcuales/next-js-nasa-photo-of-the-day)
+
 
 ## Getting Started
 
