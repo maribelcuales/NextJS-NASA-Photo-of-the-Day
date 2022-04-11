@@ -97,7 +97,7 @@
 
 .card {
   margin: 2rem;
-  padding: 1rem 1.5rem .5rem 1.5rem;
+  padding: 1rem 1.5rem .2rem 1.5rem;
   text-align: center;
   color: whitesmoke;
   font-family: 'Poppins', sans-serif;
@@ -187,6 +187,7 @@
 @media (max-width: 600px) {
   .title {
     font-size: 3rem;
+    
   }
 
   .grid {
