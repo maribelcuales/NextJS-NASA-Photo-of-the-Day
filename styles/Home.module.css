@@ -160,11 +160,13 @@
   line-height: 1.15;
   font-size: 2rem;
   text-align: center;
+  color: #A0C4FF;
 }
 
 .copyright {
   text-align: center;
   font-size: 1rem;
+  color: #A0C4FF;
 }
 
 .photoDesc {
