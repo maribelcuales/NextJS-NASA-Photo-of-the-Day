@@ -1,28 +1,29 @@
 ## Project Info
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and then deployed on Vercel. 
+This project is a web application built with Next.js that allows users to explore and discover captivating images and information from NASA's Astronomy Picture of the Day (APOD) API. APOD provides a new astronomy-related image or photograph every day, along with a brief explanation written by a professional astronomer.
 
-It fetches data directly from the NASA APOD API and automatically updates data everyday. It also has responsive web design. 
+It retrieves information directly from the NASA APOD API, automatically refreshing data daily. Additionally, it features a responsive web design.
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and deployed on Vercel. 
 
 Deployed Project on Vercel: [Next.js NASA Photo of the Day](https://next-js-nasa-photo-of-the-day-maribelcuales.vercel.app/)
 
+## Features 
+Daily Image Display: The application fetches the latest APOD image and displays it on the homepage, providing users with a daily dose of stunning space visuals.
 
-## Getting Started
+Date Selection: Users can explore APOD images from any date by selecting a specific date from the date picker. This feature allows users to revisit or discover images from the past.
 
-First, run the development server:
+Image Details: Clicking on an image reveals detailed information about it, including the title, date, explanation, and other relevant details. Users can delve into the scientific context behind each image.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Mobile Responsive: The application is designed to be responsive, ensuring a seamless user experience across various devices, including desktops, tablets, and smartphones.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
+Next.js: The project is built on the Next.js framework, providing a fast and efficient development experience with server-side rendering.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+React: The user interface is developed using React, enabling a component-based architecture for a modular and maintainable codebase.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+NASA APOD API: The application fetches data from NASA's APOD API to dynamically retrieve the latest images and information.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Axios: To handle HTTP requests and efficiently interact with the APOD API.
 
 ## Learn More
 
@@ -38,3 +39,8 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Contribution Guidelines
+Contributions to enhance features, fix bugs, or improve the overall user experience are welcome. Please fork the repository, create a new branch for your changes, and submit a pull request for review.
+
+Happy exploring the wonders of the universe with the NASA APOD API Explorer! 🚀✨
